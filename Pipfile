@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+mysqlclient = {path = "./mysqlclient-1.4.6-cp37-cp37m-win32.whl"}
+drf-yasg = "*"
+
+[requires]
+python_version = "3.7"
